@@ -1,0 +1,25 @@
+username: mtbc_etl
+Access key ID :	AKIAY66YSYR4QKGTF5RT	
+Secret access key : 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
+
+--616245150841
+
+--select DATEADD(HH,-10,GETDATE())
+
+https://www.youtube.com/watch?v=lj1-eCRpxtM
+https://www.youtube.com/watch?v=tlW7lpJoWEg
+
+https://zappysys.com/onlinehelp/ssis-powerpack/index.htm#page=getting-started.htm
+https://www.youtube.com/watch?v=ffjfpWBifas
+https://www.youtube.com/watch?v=ynSy3yDe4Ag
+
+https://www.red-gate.com/simple-talk/sql/ssis/ssis-basics-introducing-variables/
+
+https://www.youtube.com/watch?v=wBpBTl_vUBM
+
+https://www.youtube.com/watch?v=3HcPJCBS_KY
+
+https://www.youtube.com/watch?v=M6pzD7WHbBw
+
+
+@[User::SourceFolder]+"\\"+ @[User::FileName]+left(replace(substring((DT_STR,50,1252) getdate(),1,19),":",""),10)+".csv"
